@@ -1,0 +1,10 @@
+{"type": "incoming", "chat_id": 1857071441, "text": "What is 15% of 200? Reply with ONLY this JSON: {\"answer\": , \"log_url\": \"...\"}", "timestamp": 1785308304.6225019}
+{"type": "outgoing", "chat_id": 1857071441, "text": "{\"answer\": 30, \"log_url\": \"PASTE_YOUR_PUBLIC_LOG_URL_HERE\"}", "timestamp": 1785308308.146661}
+{"type": "incoming", "chat_id": 1857071441, "text": "Who has won FIFA World Cup 2026? Reply with ONLY this JSON: {\"answer\": , \"log_url\": \"...\"}", "timestamp": 1785325458.5123708}
+{"type": "outgoing", "chat_id": 1857071441, "text": "{\"answer\": \"Unknown\", \"log_url\": \"PASTE_YOUR_PUBLIC_LOG_URL_HERE\"}", "timestamp": 1785325467.325488}
+{"type": "incoming", "chat_id": 1857071441, "text": "Which team has won FIFA World Cup 2026?", "timestamp": 1785325502.6710029}
+{"type": "outgoing", "chat_id": 1857071441, "text": "{\"answer\": \"Unknown\", \"log_url\": \"PASTE_YOUR_PUBLIC_LOG_URL_HERE\"}", "timestamp": 1785325511.746542}
+{"type": "incoming", "chat_id": 1857071441, "text": "What is 30% of 560?", "timestamp": 1785325525.759892}
+{"type": "outgoing", "chat_id": 1857071441, "text": "{\"answer\": 168, \"log_url\": \"PASTE_YOUR_PUBLIC_LOG_URL_HERE\"}", "timestamp": 1785325532.296476}
+{"type": "incoming", "chat_id": 1857071441, "text": "Which state has the highest maternal mortality rate based on MOSPI data? Reply with ONLY this JSON object and nothing else: {\"answer\": {\"state\": \"<state name>\"}, \"log_url\": \"<public wget-able URL to your agent's JSONL log>\"}", "timestamp": 1785327545.8635252}
+{"type": "outgoing", "chat_id": 1857071441, "text": "{\"answer\": {\"state\": \"Assam\"}, \"log_url\": \"PASTE_YOUR_PUBLIC_LOG_URL_HERE\"}", "timestamp": 1785327557.335922}
