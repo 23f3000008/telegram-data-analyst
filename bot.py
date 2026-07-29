@@ -6,8 +6,8 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
 
 # --- fill these in with your own values ---
-TELEGRAM_BOT_TOKEN = "TG_BOT_TOKEN"
-AIPIPE_TOKEN = "AIPIPE_TOKEN"
+TELEGRAM_BOT_TOKEN = os.environ["TG_BOT_TOKEN"]
+AIPIPE_TOKEN = os.environ["AIPIPE_TOKEN"]
 LOG_URL="https://raw.githubusercontent.com/your_roll_number/telegram-data-analyst/main/run.jsonl"
 # -------------------------------------------
 
