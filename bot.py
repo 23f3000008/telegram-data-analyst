@@ -1,3 +1,5 @@
+import base64
+import requests
 import json
 import time
 import os
@@ -19,10 +21,50 @@ LOG_FILE = "run.jsonl"
 # "answer the LAST message" still needs the earlier ones for context.
 conversation_history = {}
 
-def log_event(event: dict):
+LOG_FILE = "run.jsonl"
+
+def upload_to_github():
+    owner = ROLL_NO
+    repo = "telegram-data-analyst"
+    path = "run.jsonl"
+
+    url = f"https://api.github.com/repos/{owner}/{repo}/contents/{path}"
+
+    headers = {
+        "Authorization": f"Bearer {os.environ['GITHUB_TOKEN']}",
+        "Accept": "application/vnd.github+json",
+    }
+
+    # Get current SHA (if file exists)
+    r = requests.get(url, headers=headers)
+
+    sha = None
+    if r.status_code == 200:
+        sha = r.json()["sha"]
+
+    with open(LOG_FILE, "rb") as f:
+        content = base64.b64encode(f.read()).decode()
+
+    body = {
+        "message": "Update run.jsonl",
+        "content": content,
+        "branch": "main",
+    }
+
+    if sha:
+        body["sha"] = sha
+
+    r = requests.put(url, headers=headers, json=body)
+    r.raise_for_status()
+
+
+def log_event(event):
     event["timestamp"] = time.time()
+
     with open(LOG_FILE, "a") as f:
         f.write(json.dumps(event) + "\n")
+
+    upload_to_github()
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat_id = update.effective_chat.id
