@@ -8,7 +8,9 @@ from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filte
 # --- fill these in with your own values ---
 TELEGRAM_BOT_TOKEN = os.environ["TG_BOT_TOKEN"]
 AIPIPE_TOKEN = os.environ["AIPIPE_TOKEN"]
-LOG_URL="https://raw.githubusercontent.com/your_roll_number/telegram-data-analyst/main/run.jsonl"
+ROLL_NO = os.environ["ROLL_NO"]
+
+LOG_URL = f"https://raw.githubusercontent.com/{ROLL_NO}/telegram-data-analyst/main/run.jsonl"
 # -------------------------------------------
 
 client = OpenAI(base_url="https://aipipe.org/openai/v1", api_key=AIPIPE_TOKEN)
