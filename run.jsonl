@@ -8,3 +8,12 @@
 {"type": "outgoing", "chat_id": 1857071441, "text": "{\"answer\": 168, \"log_url\": \"PASTE_YOUR_PUBLIC_LOG_URL_HERE\"}", "timestamp": 1785325532.296476}
 {"type": "incoming", "chat_id": 1857071441, "text": "Which state has the highest maternal mortality rate based on MOSPI data? Reply with ONLY this JSON object and nothing else: {\"answer\": {\"state\": \"<state name>\"}, \"log_url\": \"<public wget-able URL to your agent's JSONL log>\"}", "timestamp": 1785327545.8635252}
 {"type": "outgoing", "chat_id": 1857071441, "text": "{\"answer\": {\"state\": \"Assam\"}, \"log_url\": \"PASTE_YOUR_PUBLIC_LOG_URL_HERE\"}", "timestamp": 1785327557.335922}
+{"type": "incoming", "chat_id": 853744571, "text": "what is 15% of 200", "timestamp": 1785342018.59302}
+{"type": "outgoing", "chat_id": 853744571, "text": "{\"result\": 30, \"log_url\": \"https://raw.githubusercontent.com/23f3000008/telegram-data-analyst/main/run.jsonl\"}", "timestamp": 1785342028.194975}
+{"type": "incoming", "chat_id": 853744571, "text": "what is 15% of 200", "timestamp": 1785342029.10397}
+{"type": "outgoing", "chat_id": 853744571, "text": "{\"result\": 30, \"log_url\": \"https://raw.githubusercontent.com/23f3000008/telegram-data-analyst/main/run.jsonl\"}", "timestamp": 1785342031.665084}
+{"type": "incoming", "chat_id": 1857071441, "text": "How are you", "timestamp": 1785342785.9288378}
+{"type": "outgoing", "chat_id": 1857071441, "text": "{\"status\": \"ready\", \"message\": \"I don't have feelings, but I'm functioning normally and ready to help. How can I assist you?\", \"log_url\": \"https://raw.githubusercontent.com/23f3000008/telegram-data-analyst/main/run.jsonl\"}", "timestamp": 1785342792.644299}
+{"type": "incoming", "chat_id": 1857071441, "text": "Good one mate. I have to go to college now. Bye \ud83d\udc4b\ud83c\udffb", "timestamp": 1785396852.662234}
+{"type": "incoming", "chat_id": 1857071441, "text": "Good one mate. I have to go to college now. Bye \ud83d\udc4b\ud83c\udffb", "timestamp": 1785396918.9873018}
+{"type": "incoming", "chat_id": 1857071441, "text": "Good one mate. I have to go to college now. Bye \ud83d\udc4b\ud83c\udffb", "timestamp": 1785397072.265213}
