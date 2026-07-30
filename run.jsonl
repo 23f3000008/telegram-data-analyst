@@ -22,3 +22,4 @@
 {"type": "incoming", "chat_id": 1857071441, "text": "Good one mate. I have to go to college now. Bye \ud83d\udc4b\ud83c\udffb", "timestamp": 1785397249.8964612}
 {"type": "outgoing", "chat_id": 1857071441, "text": "{\"message\": \"Goodbye! Have a great time at college \\ud83d\\udc4b\\ud83c\\udffb\", \"log_url\": \"https://raw.githubusercontent.com/23f3000008/telegram-data-analyst/main/run.jsonl\"}", "timestamp": 1785397259.0226872}
 {"type": "incoming", "chat_id": 1857071441, "text": "Good one mate. I have to go to college now. Bye \ud83d\udc4b\ud83c\udffb", "timestamp": 1785397389.5405738}
+{"type": "outgoing", "chat_id": 1857071441, "text": "{\"message\": \"Have a great time at college! Bye \\ud83d\\udc4b\\ud83c\\udffb\", \"log_url\": \"https://raw.githubusercontent.com/23f3000008/telegram-data-analyst/main/run.jsonl\"}", "timestamp": 1785397398.105047}
