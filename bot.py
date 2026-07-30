@@ -1,3 +1,4 @@
+
 import base64
 import requests
 import json
@@ -35,11 +36,7 @@ def upload_to_github():
         "Accept": "application/vnd.github+json",
     }
 
-<<<<<<< Updated upstream
-    # Get current SHA (if file exists)
-=======
     # Always get latest SHA
->>>>>>> Stashed changes
     r = requests.get(url, headers=headers)
 
     sha = None
@@ -59,12 +56,6 @@ def upload_to_github():
         body["sha"] = sha
 
     r = requests.put(url, headers=headers, json=body)
-<<<<<<< Updated upstream
-    r.raise_for_status()
-
-
-def log_event(event):
-=======
 
     print("Upload status:", r.status_code)
     print(r.text)
@@ -134,13 +125,9 @@ print("Bot is running... (Ctrl+C to stop)")
 app.run_polling()
 
 def log_event(event: dict):
->>>>>>> Stashed changes
     event["timestamp"] = time.time()
-
     with open(LOG_FILE, "a") as f:
         f.write(json.dumps(event) + "\n")
-
-    upload_to_github()
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat_id = update.effective_chat.id
