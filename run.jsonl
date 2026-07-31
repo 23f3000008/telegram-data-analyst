@@ -4,3 +4,4 @@
 {"type": "incoming", "chat_id": 1857071441, "text": "What is your name..?", "timestamp": 1785423516.2973187}
 {"type": "outgoing", "chat_id": 1857071441, "text": "{\"name\": \"ChatGPT\", \"log_url\": \"https://raw.githubusercontent.com/23f3000008/telegram-data-analyst/main/run.jsonl\"}", "timestamp": 1785423525.0660386}
 {"type": "incoming", "chat_id": 1857071441, "text": "Which state has the highest per capita income in India? Reply with ONLY this JSON object and nothing else: {\"answer\": {\"state\": \"<state name>\"}, \"log_url\": \"<public wget-able URL to your agent's JSONL log>\"}", "timestamp": 1785502595.30771}
+{"type": "outgoing", "chat_id": 1857071441, "text": "{\"answer\": {\"state\": \"Goa\"}, \"log_url\": \"https://raw.githubusercontent.com/23f3000008/telegram-data-analyst/main/run.jsonl\"}", "timestamp": 1785502606.6672316}
